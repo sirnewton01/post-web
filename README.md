@@ -9,7 +9,7 @@ different and terrible.
 ## Failure
 
 It's difficult to pinpoint one particular failure point and doing so is probably unnecessary
-and counterproductive. Instead, let's highlight the particular failure points for the purpose
+and counterproductive. Instead, let's highlight the major failure points for the purpose
 of analysis. The purpose of this exercise is to derive a post-web (or post-webs) that would
 address many or all of these.
 
@@ -92,8 +92,8 @@ trail of abandoned web standards.
 ### Future fragile
 
 Because the web is moving so quickly it is very easy for content that is as young as ten years old to
-become obsolete and inaccessible. If you wrote a web site using Microsoft Silverlight at that time
-it will no longer function with modern web browsers. Likewise, a web site written today that relies on
+become obsolete and inaccessible. If you wrote a web site using Microsoft Silverlight or ActiveX at that time
+it will no longer function with any modern web browsers. Likewise, a web site written today that relies on
 a CDN to host the once popular JQuery library may not work if the CDN company goes out of business or
 JQuery falls out of support as its use wanes. This can make it challening to maintain a website that
 has old, but important data as it requires active maintenance and even rewriting the code and content
@@ -103,4 +103,15 @@ solution is to rely on internet archives, which themselves must be funded someho
 public, not private content.
 
 In contrast, text files can be retrieved from Apple II or Commodore 64 tapes and read with any modern
-text editor. The same can be said of old CompuServe GIF files. These are ancient scrolls in comparison.
+text editor. The same can be said of old CompuServe GIF files. These are ancient scrolls in relative
+terms. Say what you will about simple text but it is one of the most future-proof computer formats
+in existence and one that is being used extensively in the lightweight markup community to great effect,
+with github being a great example.
+
+## Post-Web
+
+The post-web is something that should emerge from the failures of the world-wide-web and attempt to fix
+these adding greater capability at a lower cost than the original. For those aware of the history of
+computing an apt metaphor here would be to live in a world of Multics and finally have Unix. Another
+way of putting this is that we live in a world of Mainframes (ie. Cloud, maybe) and we want our personal
+computers.
