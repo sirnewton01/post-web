@@ -13,7 +13,7 @@ and counterproductive. Instead, let's highlight the particular failure points fo
 of analysis. The purpose of this exercise is to derive a post-web (or post-webs) that would
 address many or all of these.
 
-### Content creation: inaccessible or locked in
+### Content: inaccessible or locked in
 
 If you want to author something simple on the world wide web on your own it is largely impossible
 for an average, yet computer literate, human. There are so many items to consider at all
@@ -51,7 +51,7 @@ with infosec to repair the damage afterwards.
 
 The web now requires 2-3MB transfers for each web page on average. It is worth noting that much or
 even most of this data does not constitute the actual content of the page. Instead, it is all
-of the framework and branding for the site. There is abundant bloat.
+of the framework, branding and advertising for the site. There is abundant bloat.
 
 Home, commercial and mobile internet technologies have responded so far with fatter pipes. Web
 browsers have to do more aggressive caching. Web sites rely on highly security critical content
@@ -59,7 +59,7 @@ distribution networks to avoid overwhelming their servers with all of the transf
 
 ### Implementation complexity
 
-Web browsers are famously large and complex code bases riddled with security and other problems.
+Web browsers are famously large and complex code bases riddled with bugs and other problems.
 They are second only to operating systems and database management systems in their immensity.
 Mozilla, the maker of the Firefox web browser, is inventing their own highly sophistocated
 programming language called Rust with the goal of preventing any code from entering the code base
@@ -68,5 +68,21 @@ is no longer readable enough to rely on developers themselves and code review te
 serious errors.
 
 The web standards are always in flux and getting larger all of the time. This helps to ensure
-that web browsers are never really done. The Chrome browser abandoned version numbers and instituted
-transparent upgrades to force users to keep up.
+that web browsers are never really finished. The Chrome browser abandoned version numbers and instituted
+transparent upgrades to force users to keep up when it would be unreasonable to ask them to update
+on their own.
+
+### Lack of transparency
+
+Most web pages are too complex for all but the most savvy users to view the source and understand
+what is happening. This lack of readability can be a real problem for a number of reasons. Most users
+can't have a real understanding of what is going on when they perform an action on the page. The actions
+are largely site-specific with little standardization.
+
+The REpresentational State Transfer (REST) movement has attempted to standardize interactions of RESTful
+APIs, but has fallen short of standardizing UI presentation and gestures. Each website remains entirely
+unique necessitating more and more site interaction logic being executed by the web browser in the page.
+As is typical with the web REST looks to be a passing fad that will soon be superceded by a much more
+flexible and complex "GraphQL" system leaving REST behind along with JQuery, XHTML and the rest of the
+trail of abandoned web standards.
+
