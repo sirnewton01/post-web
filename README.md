@@ -30,12 +30,15 @@ of hosting your content and even the content itself. You have no access to the s
 for these systems and so it is completely opaque to you how your data is being used until there
 is a disaster and the companies are forced to reveal soome of the inner details. Many of these
 sites are free to the end user and require highly skilled workers to maintain and so there is
-constant pressure to resort to intrusive advertising and invasion of privacy to pay their
-employees.
+constant pressure to resort to intrusive advertising or encroachment of privacy in order to 
+pay their employees.
 
 You could pick a variety of Wordpress blogging sites where you have slightly more control
 and freedom with your content, but then you are still locked-in to the Wordpress system itself
-unable to easily move your content onto another system.
+unable to easily move your content onto another system. Moving off of the web entirely and onto
+something else is also an exercise in futulity as the web itself makes it challenging to scrape
+the flash away from the content so much so that enterprises have cropped up specializing in
+just that.
 
 ### Security
 
@@ -86,3 +89,18 @@ As is typical with the web REST looks to be a passing fad that will soon be supe
 flexible and complex "GraphQL" system leaving REST behind along with JQuery, XHTML and the rest of the
 trail of abandoned web standards.
 
+### Future fragile
+
+Because the web is moving so quickly it is very easy for content that is as young as ten years old to
+become obsolete and inaccessible. If you wrote a web site using Microsoft Silverlight at that time
+it will no longer function with modern web browsers. Likewise, a web site written today that relies on
+a CDN to host the once popular JQuery library may not work if the CDN company goes out of business or
+JQuery falls out of support as its use wanes. This can make it challening to maintain a website that
+has old, but important data as it requires active maintenance and even rewriting the code and content
+in order to keep up. An alternative is to rely on frameworks that themselves are future proof
+and continue to be updated over time, which doesn't seem likely for many of them.. The only other
+solution is to rely on internet archives, which themselves must be funded somehow and only work with
+public, not private content.
+
+In contrast, text files can be retrieved from Apple II or Commodore 64 tapes and read with any modern
+text editor. The same can be said of old CompuServe GIF files. These are ancient scrolls in comparison.
