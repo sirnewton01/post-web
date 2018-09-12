@@ -130,7 +130,12 @@ Much of the world-wide-web glosses over the actual content with branded and maga
 If content, not presentation, is the primary goal, which it should be, then the simplest and
 most elegant way to represent that is plain text. That is not to say that there are cases
 where other media types better represent or enhance the content, but text should be the default
-unless there is good reason to deviate for a number of reasons covered below.
+unless there is good reason to deviate for a number of reasons covered below. This document being a
+good example provided that you have checked it out with git or view it in "Raw" mode.
+
+Over time text has gradually gained new capabilities. Unicode/UTF-8 has allowed us to add foreign
+languages to our files. Also, certain mathematical symbols have been added recently. Even emojis
+are relatively easy to use and ubiquitous in certain contexts.
 
 ### Interoperability
 
@@ -151,3 +156,26 @@ Since everything is out in the open it forces the author to be more concise and 
 probably a good thing in general. Even hyperlinks are exposed and not abbreviated preventing
 phishing attacks.
 
+### Hyperlinking
+
+Hyperlinking is preferred over embedding because embedded content can be distracting. A hyperlink gives
+the ready a means to access a related document and lets them control when or if that document should be
+opened.
+
+### In-depth reading
+
+Sometimes, a topic is worth exploring in more detail and over a longer period of time. Plain text is
+great for reading short content or even exploring the breadth of information available but there are
+better ways of digesting a large document in-depth. In those cases the user can convert text into a
+rich text representation, such as PDF, for a focused reading session. Since an author can't know
+how their content will be consumed by different readers making the plain text representation readable
+is a necessity. They can use formats such as Markdown to enable conversion of their content into
+rich representations, while making the plain text more readable as well.
+
+### File extensions
+
+File extensions are well used and understood by users. They also have operating system support.
+This is in contrast with media types, which are hierarchical and needlessly complex. Many of the
+reasons for the existence of media types are disappearing over time. Text file encoding is being
+standardized around a single Uncide/UTF-8. Hierarchical meta-types, such as XML are in decline.
+File extensions work just fine.
