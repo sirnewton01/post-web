@@ -135,7 +135,10 @@ good example provided that you have checked it out with git or view it in "Raw" 
 
 Over time text has gradually gained new capabilities. Unicode/UTF-8 has allowed us to add foreign
 languages to our files. Also, certain mathematical symbols have been added recently. Even emojis
-are relatively easy to use and ubiquitous in certain contexts.
+are relatively easy to use and ubiquitous in certain contexts. Markdown and other plain text formatting
+languages standardize headings, hyperlinks and other document syntaxes. There are even plain text
+languages for describing graphs, tables and diagrams in a somewhat readable way. The envelope is being
+pushed further over time.
 
 ### Interoperability
 
