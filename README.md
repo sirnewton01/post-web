@@ -89,6 +89,13 @@ As is typical with the web REST looks to be a passing fad that will soon be supe
 flexible and complex "GraphQL" system leaving REST behind along with JQuery, XHTML and the rest of the
 trail of abandoned web standards.
 
+### Hidden content
+
+Content is often hidden from the user making it a real problem when some of that content is malicious.
+Hyperlinks are often abbreviated hiding the real destination making it more difficult for users to
+discern whether they are going to a trusted or untrusted site. The same applies to hidden HTML elements
+on the page.
+
 ### Future fragile
 
 Because the web is moving so quickly it is very easy for content that is as young as ten years old to
@@ -111,7 +118,36 @@ with github being a great example.
 ## Post-Web
 
 The post-web is something that should emerge from the failures of the world-wide-web and attempt to fix
-these adding greater capability at a lower cost than the original. For those aware of the history of
-computing an apt metaphor here would be to live in a world of Multics and finally have Unix. Another
-way of putting this is that we live in a world of Mainframes (ie. Cloud, maybe) and we want our personal
-computers.
+these problems while adding greater capability at a lower cost than the original. For those aware of the
+history of computing an apt metaphor here would be to live in a world of Multics and finally have Unix.
+Another way of putting this is that we live in a world of Mainframes (ie. Cloud, maybe) and we want our
+personal computers. Users of the post-web should be capable of understanding some of the internal workings
+without too much specialized knowledge because the system itself is designed with simplicity in mind.
+
+### Text as the default
+
+Much of the world-wide-web glosses over the actual content with branded and magazine-list presentation.
+If content, not presentation, is the primary goal, which it should be, then the simplest and
+most elegant way to represent that is plain text. That is not to say that there are cases
+where other media types better represent or enhance the content, but text should be the default
+unless there is good reason to deviate for a number of reasons covered below.
+
+### Interoperability
+
+Text can be read and processed with a wide variety of tools, many of which are provided as part
+of your operating system. Unix has demonstrated a rich foundation based on text inputs and outputs,
+which are easily lost when moving to rich file types, such as the world-wide-web. It should be possible
+to use the post-web system with the standard operating system tools for the most part, which can help
+to stem the repeated reinvention of these tools over and over for different file formats. If the standard
+tools are too complex or incomplete then perhaps the operating system itself should be simplified.
+
+It is worth mentioning that tools such as PGP (or GPG) are quite easy to use with text files. Cryptographic
+signatures can be appended to the end of a text file. Decryption is also a relatively simple matter.
+
+### Transparency
+
+It is difficult to hide content in plain text. Opportunities for malicious content are much less.
+Since everything is out in the open it forces the author to be more concise and clear, which is
+probably a good thing in general. Even hyperlinks are exposed and not abbreviated preventing
+phishing attacks.
+
