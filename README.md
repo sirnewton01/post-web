@@ -162,6 +162,14 @@ Hyperlinking is preferred over embedding because embedded content can be distrac
 the ready a means to access a related document and lets them control when or if that document should be
 opened.
 
+The preferred hyperlink format for the world-wide-web is URL and URI. There is alot of unneeded baggage
+here. The protocol/scheme for most links is http or https, making it largely repetititive. The query
+parameters are difficult to handle due to the possibility of repeating or non-repeating keys. All that
+should remain is the host, path and fragment portions.
+
+Relative paths are also quite handy at times to make documents host and path independent for intra-site
+links.
+
 ### In-depth reading
 
 Sometimes, a topic is worth exploring in more detail and over a longer period of time. Plain text is
@@ -179,3 +187,6 @@ This is in contrast with media types, which are hierarchical and needlessly comp
 reasons for the existence of media types are disappearing over time. Text file encoding is being
 standardized around a single Uncide/UTF-8. Hierarchical meta-types, such as XML are in decline.
 File extensions work just fine.
+
+### RESTful text UI's
+
