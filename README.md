@@ -42,9 +42,9 @@ just that.
 
 Due to the increasing complexity of each point in the web stack and some lack of foresight security
 has become another complex topic in its own right. A whole infosec industry has spawned in response
-to problems, such as cross-site scripting, which were brought to the forefront because of the web
-and its lack foresight. Instead, the web was and contues to be focused on pushing the boundaries of
-infinite flexibility of the mashing and presentation of content at the cost of security. Ultimately,
+to problems, such as cross-site scripting, which were brought to the forefront because of the web.
+Instead, the web was and contues to be focused on pushing the boundaries of
+flexibility of the mashing and presentation of content at the cost of security. Ultimately,
 end users have become numb or entirely uninformed of the problems leaving the tech industry along
 with infosec to repair the damage afterwards.
 
@@ -52,7 +52,9 @@ with infosec to repair the damage afterwards.
 
 The web now requires 2-3MB transfers for each web page on average. It is worth noting that much or
 even most of this data does not constitute the actual content of the page. Instead, it is all
-of the framework, branding and advertising for the site. There is abundant bloat.
+of the framework, branding and advertising for the site. Sites cannot generally navigated without
+a fully functional web browser, which can have an install size larger than 100MB and requires
+regular updates. There is abundant bloat.
 
 Home, commercial and mobile internet technologies have responded so far with fatter pipes. Web
 browsers have to do more aggressive caching. Web sites rely on highly security critical content
