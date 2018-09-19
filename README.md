@@ -127,12 +127,11 @@ without too much specialized knowledge because the system itself is designed wit
 
 ### Text as the default
 
-Much of the world-wide-web glosses over the actual content with branded and magazine-list presentation.
-If content, not presentation, is the primary goal, which it should be, then the simplest and
+Much of the world-wide-web glosses over the actual content with branded and magazine-like presentation.
+If content, not presentation, is the primary goal then the simplest and
 most elegant way to represent that is plain text. That is not to say that there are cases
 where other media types better represent or enhance the content, but text should be the default
-unless there is good reason to deviate for a number of reasons covered below. This document being a
-good example provided that you have checked it out with git or view it in "Raw" mode.
+unless there is good reason to deviate for a number of reasons covered below.
 
 Over time text has gradually gained new capabilities. Unicode/UTF-8 has allowed us to add foreign
 languages to our files. Also, certain mathematical symbols have been added recently. Even emojis
@@ -158,7 +157,7 @@ signatures can be appended to the end of a text file. Decryption is also a relat
 It is difficult to hide content in plain text. Opportunities for malicious content are much less.
 Since everything is out in the open it forces the author to be more concise and clear, which is
 probably a good thing in general. Even hyperlinks are exposed and not abbreviated, helping to prevent
-phishing attacks. Remote code is never executed by default.
+phishing attacks. Remote code is never executed unless the user requests it.
 
 ### Hyperlinking
 
