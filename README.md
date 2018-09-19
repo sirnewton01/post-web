@@ -232,4 +232,4 @@ on simple files, mostly text, and accessible using standard tools, such as a tex
 expose these files as RESTful entities in filesystems allowing internet services to expose rich functionality
 in a consistent way. The same approach can be taken to design services that run directly on your computer
 or even your local network for an added level of consistency in your computing experience in this post-web
-world. The question remains how to [designed](design.md) such a system.
+world. The question remains how to [design](design.md) the system.
