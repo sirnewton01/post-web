@@ -80,7 +80,8 @@ on their own.
 Most web pages are too complex for all but the most savvy users to view the source and understand
 what is happening. This lack of readability can be a real problem for a number of reasons. Most users
 can't have a real understanding of what is going on when they perform an action on the page. The actions
-are largely site-specific with little standardization.
+are largely site-specific with little standardization. This also makes it difficult for users themselves
+to distinguish malicious user-contributed action from the regular site actions.
 
 The REpresentational State Transfer (REST) movement has attempted to standardize interactions of RESTful
 APIs, but has fallen short of standardizing UI presentation and gestures. Each website remains entirely
@@ -92,7 +93,7 @@ trail of abandoned web standards.
 ### Hidden content
 
 Content is often hidden from the user making it a real problem when some of that content is malicious.
-Hyperlinks are often abbreviated hiding the real destination making it more difficult for users to
+Hyperlinks are usually abbreviated hiding the real destination making it more difficult for users to
 discern whether they are going to a trusted or untrusted site. The same applies to hidden HTML elements
 on the page.
 
@@ -156,8 +157,8 @@ signatures can be appended to the end of a text file. Decryption is also a relat
 
 It is difficult to hide content in plain text. Opportunities for malicious content are much less.
 Since everything is out in the open it forces the author to be more concise and clear, which is
-probably a good thing in general. Even hyperlinks are exposed and not abbreviated preventing
-phishing attacks.
+probably a good thing in general. Even hyperlinks are exposed and not abbreviated, helping to prevent
+phishing attacks. Remote code is never executed by default.
 
 ### Hyperlinking
 
