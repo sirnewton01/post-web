@@ -223,3 +223,13 @@ systems you can mount these filesystems so that they appear alongside your regul
 there you are free to use whichever operating system tools you like including file managers and text
 editors. If the REST interface is written in an intuitive style or documented then you can use them much
 like a website, but without all of the baggage.
+
+# Welcome to the post-web
+
+The current world-wide-web has developed a number of systemic problems in a number of different areas
+necessitating the development of a post-web system. One possible post-web system can be devised based
+on simple files, mostly text, and accessible using standard tools, such as a text editor. The idea is to
+expose these files as RESTful entities in filesystems allowing internet services to expose rich functionality
+in a consistent way. The same approach can be taken to design services that run directly on your computer
+or even your local network for an added level of consistency in your computing experience in this post-web
+world. The question remains how to [designed](design.md) such a system.
