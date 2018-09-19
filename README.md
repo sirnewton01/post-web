@@ -169,7 +169,7 @@ opened.
 The preferred hyperlink format for the world-wide-web is URL and URI. There is alot of unneeded baggage
 here. The protocol/scheme for most links is http or https, making it largely repetititive. The query
 parameters are difficult to handle due to the possibility of repeating or non-repeating keys. All that
-should remain is the host, path and fragment portions.
+should remain is the host, path and fragment portions (e.g. github.com/sirnewton01/post-web#hyperlinking).
 
 Relative paths are also quite handy at times to make documents host and path independent for intra-site
 links.
@@ -180,9 +180,9 @@ Sometimes, a topic is worth exploring in more detail and over a longer period of
 great for reading short content or even exploring the breadth of information available but there are
 better ways of digesting a large document in-depth. In those cases the user can convert text into a
 rich text representation, such as PDF, for a focused reading session. Since an author can't know
-how their content will be consumed by different readers making the plain text representation readable
-is a necessity. They can use formats such as Markdown to enable conversion of their content into
-rich representations, while making the plain text more readable as well.
+how their content will be consumed it is important that the base text form of the content be readable
+as much as possible. They can use formats such as Markdown to enable conversion of their content into
+rich representations, while making the plain text more readable due its set of common conventions.
 
 ### File extensions
 
