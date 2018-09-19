@@ -8,7 +8,7 @@ different and terrible.
 
 ## Failure
 
-It's difficult to pinpoint one particular failure point and doing so is probably unnecessary
+It's difficult to pinpoint one particular failure point. Doing so is probably unnecessary
 and counterproductive. Instead, let's highlight the major failure points. The purpose of this
 exercise is to derive a post-web (or post-webs) that would address many or all of these.
 
@@ -106,7 +106,7 @@ a CDN to host the once popular JQuery library may not work if the CDN company go
 JQuery falls out of support as its use wanes. This can make it challening to maintain a website that
 has old, but important data as it requires active maintenance and even rewriting the code and content
 in order to keep up. An alternative is to rely on frameworks that themselves are future proof
-and continue to be updated over time, which doesn't seem likely for many of them.. The only other
+and continue to be updated over time, which doesn't seem likely for many of them. The only other
 solution is to rely on internet archives, which themselves must be funded somehow and only work with
 public, not private content.
 
@@ -192,5 +192,33 @@ reasons for the existence of media types are disappearing over time. Text file e
 standardized around a single Uncide/UTF-8. Hierarchical meta-types, such as XML are in decline.
 File extensions work just fine.
 
-### RESTful text UI's
+### RESTful text files
 
+REST is most often associated with HTTP (REST/HTTP) and the mechanism to build API's between web pages and servers
+using the HTTP verbs GET/PUT/POST/HEAD/DELETE as an integral part of the API. The effort to standardize
+this interaction is a great step forward since it gives the developers a framework to understand how
+different REST API's should work in a variety of contexts. The framework falls short of supporting end
+users. The overhead of setting up an HTTP server, allocating a port number and communicating that information
+to a client is not always practical, especially for local communication between processes or even over
+a local network.
+
+It turns out that REST can and has been applied to a variety of transports including the file system.
+In the 1990's a research operating system called Plan 9 was built by the original Unix team at Bell Labs
+and made use of text files to build API's between processes in the system. Since any program and even end
+users can read/write text files this became a powerful mechanism to interact with the system. One very simple
+example is that you can read the file /dev/mouse to get the current mouse coordinates in text form and
+write back out coordinates in that same form to move the mouse on the screen. Another is that you can
+read and write a special file provided by the Acme editor in order to read and write to the text buffer
+making it easy to write custom tools in any language that you like. This same mechanism has been proven
+to work not just across processes but also across networks and even interactions with computer peripherals
+via the operating system kernel using file system verbs, such as Open/Read/Write/Stat, which is understood
+by a very wide variety of tools.
+
+You can apply this REST/Filesystem approach to interactions on the internet. Internet sites, such as the
+original Plan 9 site and newer ones such as 9front.org expose network filesystems that can be mounted on
+Plan 9 systems. Some filesystems work like traditional shared file store, while others do more elaborate
+things like allow you to raise issues in the bug tracking system. For other more commonly used operating
+systems you can mount these filesystems so that they appear alongside your regular files using FUSE. From
+there you are free to use whichever operating system tools you like including file managers and text
+editors. If the REST interface is written in an intuitive style or documented then you can use them much
+like a website, but without all of the baggage.
