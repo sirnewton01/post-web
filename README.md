@@ -9,20 +9,18 @@ different and terrible.
 ## Failure
 
 It's difficult to pinpoint one particular failure point and doing so is probably unnecessary
-and counterproductive. Instead, let's highlight the major failure points for the purpose
-of analysis. The purpose of this exercise is to derive a post-web (or post-webs) that would
-address many or all of these.
+and counterproductive. Instead, let's highlight the major failure points. The purpose of this
+exercise is to derive a post-web (or post-webs) that would address many or all of these.
 
 ### Content: inaccessible or locked in
 
 If you want to author something simple on the world wide web on your own it is largely impossible
-for an average, yet computer literate, human. There are so many items to consider at all
+for an average, yet computer literate, person. There are so many items to consider at all
 points of the stack: IP addresses, routing, servers, monitoring, domain names, operating systems,
 firewalls, web servers, proxies, server-side language / framework, client-side language / framework,
 authentication, secure transport, HTML, styling and web browsers. Each point in this stack has suffers from a
 number of problems that requires specialists or even entire industries to constantly monitor
-and improve leaving an author bewildered or worse. It forces them to be willfully ignorant at their
-own peril.
+and improve. It forces people to be willfully ignorant at their own peril.
 
 Another option for an author is to pick proprietary frameworks or sites. On one extreme
 you have micro-blogging platforms like Facebook and Twitter that take total and complete control
