@@ -146,8 +146,9 @@ Text can be read and processed with a wide variety of tools, many of which are p
 of your operating system. Unix has demonstrated a rich foundation based on text inputs and outputs,
 which are easily lost when moving to rich file types, such as the world-wide-web. It should be possible
 to use the post-web system with the standard operating system tools for the most part, which can help
-to stem the repeated reinvention of these tools over and over for different file formats. If the standard
-tools are too complex or incomplete then perhaps the operating system itself should be simplified.
+to stem the repeated reinvention of these tools over and over for different file formats. Text files have
+well known and age tested ways of searching, copying, versioning, comparing and patching them. If the
+standard tools are too complex or incomplete then perhaps the system itself should be simplified.
 
 It is worth mentioning that tools such as PGP (or GPG) are quite easy to use with text files. Cryptographic
 signatures can be appended to the end of a text file. Decryption is also a relatively simple matter.
@@ -156,8 +157,9 @@ signatures can be appended to the end of a text file. Decryption is also a relat
 
 It is difficult to hide content in plain text. Opportunities for malicious content are much less.
 Since everything is out in the open it forces the author to be more concise and clear, which is
-probably a good thing in general. Even hyperlinks are exposed and not abbreviated, helping to prevent
-phishing attacks. Remote code is never executed unless the user requests it.
+probably a good thing in general. Even hyperlinks are exposed and not abbreviated helping to prevent
+phishing attacks. Remote code is never executed unless the user requests it. When you cryptographically
+sign plain text content you also know exactly what you are signing.
 
 ### Hyperlinking
 
