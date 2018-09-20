@@ -12,7 +12,7 @@ It's difficult to pinpoint one particular failure point. Doing so is probably un
 and counterproductive. Instead, let's highlight the major failure points. The purpose of this
 exercise is to derive a post-web (or post-webs) that would address many or all of these.
 
-### Content: inaccessible or locked in
+### Content: either inaccessible or locked in
 
 If you want to author something simple on the world wide web on your own it is largely impossible
 for an average, yet computer literate, person. There are so many items to consider at all
@@ -20,7 +20,7 @@ points of the stack: IP addresses, routing, servers, monitoring, domain names, o
 firewalls, web servers, proxies, server-side language / framework, client-side language / framework,
 authentication, secure transport, HTML, styling and web browsers. Each point in this stack has suffers from a
 number of problems that requires specialists or even entire industries to constantly monitor
-and improve. It forces people to be willfully ignorant at their own peril.
+and improve. It forces people to be willfully ignorant.
 
 Another option for an author is to pick proprietary frameworks or sites. On one extreme
 you have micro-blogging platforms like Facebook and Twitter that take total and complete control
@@ -57,7 +57,7 @@ a fully functional web browser, which can have an install size larger than 100MB
 regular updates. There is abundant bloat.
 
 Home, commercial and mobile internet technologies have responded so far with fatter pipes. Web
-browsers have to do more aggressive caching. Web sites rely on highly security critical content
+browsers have to do more aggressive caching. Web sites rely on content
 distribution networks to avoid overwhelming their servers with all of the transfers.
 
 ### Implementation complexity
@@ -113,8 +113,7 @@ public, not private content.
 In contrast, text files can be retrieved from Apple II or Commodore 64 tapes and read with any modern
 text editor. The same can be said of old CompuServe GIF files. These are ancient scrolls in relative
 terms. Say what you will about simple text but it is one of the most future-proof computer formats
-in existence and one that is being used extensively in the lightweight markup community to great effect,
-with github being a great example.
+in existence and one that is being used extensively in the lightweight markup community to great effect.
 
 ## Post-Web
 
@@ -140,6 +139,9 @@ languages standardize headings, hyperlinks and other document syntaxes. There ar
 languages for describing graphs, tables and diagrams in a somewhat readable way. The envelope is being
 pushed further over time.
 
+Textual content is [accessible](https://tidbits.com/2013/06/18/with-markdown-even-the-blind-can-write/) too since screen 
+readers have a relatively easy time finding the content within the presentation.
+
 ### Interoperability
 
 Text can be read and processed with a wide variety of tools, many of which are provided as part
@@ -164,7 +166,7 @@ sign plain text content you also know exactly what you are signing.
 ### Hyperlinking
 
 Hyperlinking is preferred over embedding because embedded content can be distracting. A hyperlink gives
-the ready a means to access a related document and lets them control when or if that document should be
+the ready a means to access a related file and lets them control when or if that file should be
 opened.
 
 The preferred hyperlink format for the world-wide-web is URL and URI. There is alot of unneeded baggage
@@ -175,7 +177,7 @@ should remain is the host, path and fragment portions (e.g. github.com/sirnewton
 Relative paths are also quite handy at times to make documents host and path independent for intra-site
 links.
 
-### In-depth reading
+### In-depth study
 
 Sometimes, a topic is worth exploring in more detail and over a longer period of time. Plain text is
 great for reading short content or even exploring the breadth of information available but there are
@@ -224,7 +226,7 @@ there you are free to use whichever operating system tools you like including fi
 editors. If the REST interface is written in an intuitive style or documented then you can use them much
 like a website, but without all of the baggage.
 
-# Welcome to the post-web
+# Summary and next steps
 
 The current world-wide-web has developed a number of systemic problems in a number of different areas
 necessitating the development of a post-web system. One possible post-web system can be devised based
@@ -232,4 +234,4 @@ on simple files, mostly text, and accessible using standard tools, such as a tex
 expose these files as RESTful entities in filesystems allowing internet services to expose rich functionality
 in a consistent way. The same approach can be taken to design services that run directly on your computer
 or even your local network for an added level of consistency in your computing experience in this post-web
-world. The question remains how to [design](design.md) the system.
+world. You can read about the proposed [design](design.md) of the system.
