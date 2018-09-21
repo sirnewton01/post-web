@@ -25,3 +25,14 @@ each learning experience to be applicable to other areas. It's time to stop trea
 as incapable of learning and instead provide them with a system that is more learnable. This
 will help to lower the barrier between user and developer.
 
+Unix and other time sharing systems taught us that a single computer can serve multiple
+tasks and users at the same time. Websites and cloud services took this a step further
+and made a cluster of machines appear as one. Still, there are boundaries between different
+websites, cloud services and even our local computer that we use to interact with it. It makes
+it difficult to assemble unique combinations of different services unless the sites directly
+support the interaction. What if you could assemble resources from a number of different systems
+into one place to support a specific task that you wanted to run? You could pick some storage
+from one place, a display from another, some content from a few different places and use either the
+CPU of your local machine or a remote one to create a report, analzye some data, or even view
+some media. All the while, the details of what you are doing are not hidden from you, instead
+they are tools at your disposal and the system behaves as one.
